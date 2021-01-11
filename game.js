@@ -353,3 +353,15 @@ function loop() {
   requestAnimationFrame(loop);
 }
 loop();
+
+function myFunction() {
+  var bestScore = score.best;
+  var code = document.getElementById("code");
+document.getElementById("myText").innerHTML = bestScore;
+console.log(bestScore);
+if(bestScore > 7) {
+  code.style.display = 'block';
+} else {
+  code.style.display = 'none';
+}
+}

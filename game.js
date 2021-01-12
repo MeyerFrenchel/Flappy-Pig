@@ -357,11 +357,14 @@ loop();
 function myFunction() {
   var bestScore = score.best;
   var code = document.getElementById("code");
+  var goBack = document.getElementById("goBack");
 document.getElementById("myText").innerHTML = bestScore;
 console.log(bestScore);
-if(bestScore > 7) {
+if(bestScore > 8) {
   code.style.display = 'block';
+  goBack.style.display = 'block';
 } else {
   code.style.display = 'none';
+  goBack.style.display = 'none';
 }
 }

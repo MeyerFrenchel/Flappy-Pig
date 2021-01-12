@@ -1,0 +1,65 @@
+body { 
+    background-color: #ffc1b6;
+}
+
+.container { 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    color: #48426d;
+}
+
+.info { 
+    
+    padding: 2% 6%;
+    
+    display: inline-block;
+    border: ridge #fff5c0 3px;
+
+}
+
+.bestscore { 
+    display: inline-block;
+    border: ridge #ffd66b 3px;
+    padding: 2% 6%;
+}
+#myText  { 
+    color: palevioletred;
+    font-size: 40px;
+}
+.code { 
+    display: inline-block;
+}
+
+.container-hidden  {
+    background-color: #ff4646;
+    color: snow;
+    position: absolute;
+    top: 6%;
+    right: 6%;
+    width: 30%;
+    font-size: 40px;
+}
+
+#goBack {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    border-radius: 30%;
+    background-color: teal;
+    padding: 1%;
+    border-radius: 11%;
+}
+
+a { 
+    text-decoration: none;
+    font-size: 30px;
+    color: tomato;
+}
+.signs { 
+    font-size: 50px;
+}

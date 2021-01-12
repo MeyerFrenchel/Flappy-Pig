@@ -4,19 +4,35 @@
     <meta charset="UTF-8">
     <title>Flappy PIg</title>
     <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <style>
         canvas{
             border: 1px solid #000;
             display: block;
             margin: 0 auto;
         }
+
     </style>
 </head>
 <body onload= "myFunction()">
     <canvas id="pig" width="400" height="512"></canvas>
-    <p id="code">Copy this code:70 101 108 105 99 105 116 97 114 105 32 65 108 105 110 97 33 32 65 105 32 116 114 101 99 117 116 32 108 97 32 110 105 118 101 108 117 108 32 117 114 109 97 116 111 114 33 32 84 101 32 105 117 98 101 115 99 33  </p>
-    <p>In momentul in care reusesti 8 puncte da refresh la pagina si iti va aparea un cod, foloseste-l in pagina principala!</p>
-    <p>Your best score is  <span id="myText"></span></p>
+
+    <div class="container-hidden">
+        <p id="code"><span class="signs">&#9888;</span>COPY THIS CODE: <br> 70 101 108 105 99 105 116 97 114 105 32 65 108 105 110 97 33 32 65 105 32 116 114 101 99 117 116 32 108 97 32 110 105 118 101 108 117 108 32 117 114 109 97 116 111 114 33 32 84 101 32 105 117 98 101 115 99 33  </p>
+
+    </div>
+
+    <div id="goBack">
+        <a href="http://localhost:3000/"> <span class="signs">&#10550;</span> GO Back</a>
+    </div>
+    
+    <div class="container">
+        
+        <p class="info">In momentul in care reusesti 8 puncte DA REFRESH la pagina si iti va aparea un cod, foloseste-l in pagina principala!</p>
+        <p class="bestscore">Your best score is:  <span id="myText"></span></p>
+
+    </div>
+    
     <script src="game.js"></script>
 </body>
 </html>

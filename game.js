@@ -360,7 +360,7 @@ function myFunction() {
   var goBack = document.getElementById("goBack");
 document.getElementById("myText").innerHTML = bestScore;
 console.log(bestScore);
-if(bestScore > 8) {
+if(bestScore > 7) {
   code.style.display = 'block';
   goBack.style.display = 'block';
 } else {
